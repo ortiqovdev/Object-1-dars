@@ -142,9 +142,8 @@ let user5: { emil: string, password: string | number } = {
     password: 444444444
 }
 // ?                      1-usu
-// let emils: string [] = [user1.emil , user2.emil , user3.emil , user4.emil , user5.emil];
-// console.log(emils[2]);
-
+let emils: { emil: string, password: string | number } [] = [user1,user2,user3,user4,user5];
+console.log(emils[3].emil);
 
 
 // ?                       2-usul
